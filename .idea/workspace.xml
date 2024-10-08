@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c534bf3-5a8a-4f71-a351-e6d708515653" name="Changes" comment="creating git repository">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <workItem from="1728393666382" duration="42000" />
       <workItem from="1728393728187" duration="445000" />
       <workItem from="1728394196567" duration="653000" />
-      <workItem from="1728395014368" duration="614000" />
+      <workItem from="1728395014368" duration="916000" />
     </task>
     <task id="LOCAL-00001" summary="creating git repository">
       <option name="closed" value="true" />
@@ -141,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728395494849</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="creating git repository">
+      <option name="closed" value="true" />
+      <created>1728395644106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728395644106</updated>
+    </task>
+    <task id="LOCAL-00009" summary="creating git repository">
+      <option name="closed" value="true" />
+      <created>1728395665370</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728395665370</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,5 +178,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pva24_25$main.coverage" NAME="main Coverage Results" MODIFIED="1728395551501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
