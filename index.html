@@ -3,104 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Projekt</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        #navbar {
-            background-color:  #D5D3D0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-        }
-
-        #navbar .logo {
-            padding-left: 1.5rem;
-            align-self: center;
-        }
-
-        #navbar ul {
-            display: flex;
-            list-style-type: none;
-        }
-
-
-
-        #navbar ul li a {
-            display: flex;
-
-            color: black;
-            text-decoration: none;
-            padding: 0.6rem 0.8rem;
-            margin: 10px 10px;
-
-        }
-
-        #navbar ul li a:hover {
-            border-radius: 10px 10px;
-            background-color: #A7BEC7;
-
-        }
-
-        #showbody {
-            background: black url("./images/fashion.jpg") no-repeat center center/cover;
-            height: 100vh;
-            color: black;
-        }
-        #showbody .content {
-            background-color: rgba(0, 0, 0, 0.5);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100%;
-            align-items: center;
-        }
-
-        #showbody .header1 h1 {
-            margin: 5px 0px;
-
-        }
-
-        #showbody .odstavec p {
-            margin: 5px 0px;
-        }
-
-        #showbody .content {
-            color: white;
-        }
-
-
-
-
-        .btn {
-            color: white;
-            text-decoration: none;
-            padding: 7px;
-            background-color: #D5D3D0;
-            border-radius: 10px 10px;
-            color: black;
-
-
-        }
-
-        .btn:hover {
-            border-radius: 10px 10px;
-            background-color: #A7BEC7;
-            text-decoration: underline;
-            border: solid 3px #181D19;
-        }
-    </style>
-
+ 
+ 
+ 
 </head>
 <body>
     <div id="navbar">
@@ -114,9 +22,9 @@
             <li><a href="#about"><i class="fa-solid fa-bars"></i>About</a></li>
         </ul>
     </div>
-
-
-    <div id="showbody">
+ 
+ 
+    <div id="showcase">
         <div class="content">
             <div class="header1">
                 <h1>Móda pro každou záležitost</h1>
@@ -124,12 +32,58 @@
             <div class="odstavec">
                 <p>Prohlédněte si kolekce oblečení a doplňků, které zvýrazní Váš styl a sebevědomí.</p>
             </div>
-            
+ 
             <a href="#more" class="btn">More</a>
-            
+ 
         </div>
     </div>
-
-
+ 
+    <section id="what" class="py-1">
+        <div class="container">
+            <h2 class="text-center m-heading">Co prodáváme</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fa-solid fa-socks fa-xl"></i>
+ 
+                    <div>
+                        <h3>Socks</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+ 
+ 
+ 
+                <div class="item">
+                    <i class="fa-solid fa-vest fa-2xl"></i>
+ 
+                    <div>
+                        <h3>Vests</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+ 
+                </div>
+ 
+ 
+ 
+                <div class="item">
+                    <i class="fa-solid fa-shirt fa-xl"></i>
+ 
+                    <div>
+                        <h3>T-Shirts</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+ 
+                </div>
+ 
+ 
+            </div>
+        </div>
+ 
+    </section>
+ 
+ 
+ 
+ 
+ 
 </body>
 </html>
