@@ -132,3 +132,97 @@ body {
     align-self: center;
     line-height: 25px;
     }
+
+
+    #aboutus {
+        
+        padding: 1.5rem 0;
+    
+    }
+    .as-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #aboutus .text-as {
+        padding: 5px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 10px 20px;
+    }
+    
+    
+    #aboutus .text-as p {
+        padding: 5px 0px;
+    }
+    #aboutus .text-as a {
+        background-color: #A7BEC7;;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+    }
+    
+    #aboutus .text-as a:hover {
+        text-decoration: underline;
+    }
+
+    #aboutus .img-as  img {
+       width: 500px;
+       height: auto;
+       border-radius: 20px;
+
+    
+    }
+    #nastroje .items {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    #nastroje .item {
+        position: relative;
+        
+        padding: 0.3rem;
+        margin-bottom: 2rem;
+    }
+    
+    #nastroje .item:hover .overlay {
+        width: 100%;
+    }
+    
+    
+    #nastroje .image {
+        width: 300px;
+        border-radius: 10px;
+    }
+    
+    #nastroje .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: grey;
+        opacity: 50%;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+    }
+    
+    #nastroje .text {
+        white-space: nowrap;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .bg-dark {
+        background-color: #D5D3D0;
+    }
